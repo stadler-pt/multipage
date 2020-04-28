@@ -1,0 +1,252 @@
+@import "headerFooter.scss";
+
+/* SECTION1 */
+.section1 {
+    background-color: $colorSecondary2;
+    padding: 2em 1.5em;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/images/bg-pattern-home-2.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+.title1 {
+    margin: 1em 0 0.5em 0;
+    width: 100%;
+    max-width: 270px;
+    font-weight: 700;
+}
+.title1Span {
+    color: $colorPrimaryAccent;
+}
+.titleText {
+    width: 100%;
+    max-width: 500px;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 7em;
+    font-weight: 600;
+}
+
+/* SECTION2 */
+.section2 {
+    background-color: $colorSecondary3;
+    padding: 4em 1.5em 2em 1.5em;
+    background-image: url('/images/bg-pattern-home-3.svg');
+    background-position: 150% top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title2 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    text-align: left;
+    width: 65%;
+    position: relative;
+    align-self: flex-start;
+    &:before {
+        background: $colorPrimaryAccent;
+        width: 40px;
+        height: 5px;
+        border-radius: 0.3em;
+        content: "";
+        top: -0.7em;
+        position: absolute;
+    }
+}
+.pointContainer {
+    margin: 1em 0;
+    width: 90%;
+    max-width: 600px;
+}
+.point {
+    width: 100%;
+    margin: 2em 0;
+}
+.icon {
+    margin: 1em auto;
+}
+.pointTitle {
+    color: $colorPrimaryAccent;
+    margin-bottom: 0.2em;
+}
+.pointText {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/* SECTION 3 */
+.section3 {
+    background-color: $colorSecondary2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em 0;
+    background-image: url('/images/bg-pattern-home-4-about-3.svg'), url('/images/bg-pattern-home-5.svg');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+.title3 {
+    width: 85%;
+    max-width: 450px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.title3Span {
+    color: $colorSecondary1;
+    white-space: nowrap
+}
+.testemonialContainer {
+    width: 85%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testemonial {
+    margin-top: 1em;
+    padding-top: 2em;
+    z-index: 5;
+    width: 100%;
+    background-image: url('/images/icon-quotes.svg');
+    background-repeat: no-repeat;
+    background-position: center 0%;
+}
+.testemonialText {
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.testemonialName {
+    color: $colorSecondary1;
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.testemonialTitel {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;   
+}
+.testemonialImg {
+    border-radius: 50%;
+    width: 75px;
+    border: 4px solid white;
+    margin: 0.5em 0 1em;
+}
+
+/* TABLET */
+@media (min-width: 660px) {
+    .section1 {
+        background-size: 40%;
+    }
+
+    .section2 {
+        background-size: 25%;
+        background-position: 116% top;
+        align-items: flex-start;
+    }
+    .title2 {
+        margin: 1em 0 1em 3rem;
+    }
+    .point {
+        display: flex;
+        margin-left: 3rem;
+        text-align: left;
+        align-content: flex-start;
+    }
+    .icon {
+        margin: 0;
+    }
+    .pointContent {
+        margin-left: 1em;
+    }
+
+    .section3 {
+        padding: 6em 0 4em 0;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+    .section1 {
+        padding: 2em 1.5em;
+        min-height: 500px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-image: url('/images/bg-pattern-home-2.svg'), url('/images/bg-pattern-home-1.svg');
+        background-position: 85% bottom, -6% 47%;
+        background-size: 20%, 12%;
+        .title1, .titleText {
+            margin: 0;
+            text-align: left;
+            max-width: 530px;
+            margin-bottom: 8rem;
+        }
+        .titleText {
+            position: relative;
+            max-width: 450px;
+            &:before {
+                background: $colorSecondary1;
+                width: 60px;
+                height: 5px;
+                border-radius: 0.3em;
+                content: "";
+                top: -4em;
+                position: absolute;
+            }
+        }
+    }
+    .title1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .section2 {
+        flex-direction: row;
+        background-position: 105% bottom;
+        background-size: 10%;
+        justify-content: space-evenly;
+    }
+    .title2 {
+        max-width: 300px;
+    }
+    .point {
+        max-width: 500px;
+    }
+    
+    .section3 {
+        .testemonialContainer {
+            flex-direction: row;
+            max-width: none;
+            justify-content: space-between;
+        }
+        .title3 {
+            max-width: 580px;
+        }
+        .testemonial {
+            max-width: 30%;
+        }
+    }
+}
