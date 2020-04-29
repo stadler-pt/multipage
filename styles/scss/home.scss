@@ -9,7 +9,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../images/bg-pattern-home-2.svg');
+    background-image: url('/images/bg-pattern-home-2.svg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 85%;
@@ -37,7 +37,7 @@
 .section2 {
     background-color: $colorSecondary3;
     padding: 4em 1.5em 2em 1.5em;
-    background-image: url('../images/bg-pattern-home-3.svg');
+    background-image: url('/images/bg-pattern-home-3.svg');
     background-position: 150% top;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     padding: 8em 0;
-    background-image: url('../images/bg-pattern-home-4-about-3.svg'), url('../images/bg-pattern-home-5.svg');
+    background-image: url('/images/bg-pattern-home-4-about-3.svg'), url('/images/bg-pattern-home-5.svg');
     background-repeat: no-repeat;
     background-position: left top, right bottom;
 }
@@ -123,7 +123,7 @@
     padding-top: 2em;
     z-index: 5;
     width: 100%;
-    background-image: url('../images/icon-quotes.svg');
+    background-image: url('/images/icon-quotes.svg');
     background-repeat: no-repeat;
     background-position: center 0%;
 }
@@ -195,7 +195,7 @@
         align-items: flex-end;
         flex-direction: row;
         justify-content: space-evenly;
-        background-image: url('../images/bg-pattern-home-2.svg'), url('../images/bg-pattern-home-1.svg');
+        background-image: url('/images/bg-pattern-home-2.svg'), url('/images/bg-pattern-home-1.svg');
         background-position: 85% bottom, -6% 47%;
         background-size: 20%, 12%;
         .title1, .titleText {
