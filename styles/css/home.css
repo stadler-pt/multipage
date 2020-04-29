@@ -52,7 +52,7 @@ header {
   z-index: 99;
   background-color: #2C6269;
   padding-top: 30%;
-  background-image: url("https://stadler-pt.github.io/multipage/images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-image: url("../images/bg-pattern-about-1-mobile-nav-1.svg");
   background-repeat: no-repeat;
   background-position: calc(100% + 100px) 100%;
   background-size: 200px;
@@ -153,7 +153,7 @@ button.contactButton {
 /* SECTION 4 */
 .section4 {
   background-color: #F67E7E;
-  background-image: url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-6-about-5.svg");
+  background-image: url("../images/bg-pattern-home-6-about-5.svg");
   background-repeat: no-repeat;
   background-position: 0% calc(100% + 25px);
   background-size: 200px;
@@ -337,7 +337,7 @@ svg {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-image: url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-2.svg");
+  background-image: url("../images/bg-pattern-home-2.svg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 85%; }
@@ -364,7 +364,7 @@ svg {
 .section2 {
   background-color: #004047;
   padding: 4em 1.5em 2em 1.5em;
-  background-image: url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-3.svg");
+  background-image: url("../images/bg-pattern-home-3.svg");
   background-position: 150% top;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -419,7 +419,7 @@ svg {
   flex-direction: column;
   align-items: center;
   padding: 8em 0;
-  background-image: url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-4-about-3.svg"), url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-5.svg");
+  background-image: url("../images/bg-pattern-home-4-about-3.svg"), url("../images/bg-pattern-home-5.svg");
   background-repeat: no-repeat;
   background-position: left top, right bottom; }
 
@@ -448,7 +448,7 @@ svg {
   padding-top: 2em;
   z-index: 5;
   width: 100%;
-  background-image: url("https://stadler-pt.github.io/multipage/images/icon-quotes.svg");
+  background-image: url("../images/icon-quotes.svg");
   background-repeat: no-repeat;
   background-position: center 0%; }
 
@@ -509,7 +509,7 @@ svg {
     align-items: flex-end;
     flex-direction: row;
     justify-content: space-evenly;
-    background-image: url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-2.svg"), url("https://stadler-pt.github.io/multipage/images/bg-pattern-home-1.svg");
+    background-image: url("../images/bg-pattern-home-2.svg"), url("../images/bg-pattern-home-1.svg");
     background-position: 85% bottom, -6% 47%;
     background-size: 20%, 12%; }
     .section1 .title1, .section1 .titleText {

@@ -4,7 +4,7 @@
     background-color: $colorSecondary2;
     padding: 3em 0 5em 0;
     width: 100vw;
-    background-image: url('https://stadler-pt.github.io/multipage/images/bg-pattern-contact-2.svg');
+    background-image: url('../images/bg-pattern-contact-2.svg');
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: calc(100% + 100px) calc(100% + 100px);
@@ -130,7 +130,7 @@ textarea {
 @media(min-width: 600px) {
     .section {
         padding-top: 0;
-        background-image: url('https://stadler-pt.github.io/multipage/images/bg-pattern-contact-2.svg'), url(/images/bg-pattern-about-2-contact-1.svg);
+        background-image: url('../images/bg-pattern-contact-2.svg'), url('../images/bg-pattern-about-2-contact-1.svg');
         background-size: 150px;
         background-position: calc(100% + 60px) 100%, calc(0% - 75px) 0%;
         position: relative;
