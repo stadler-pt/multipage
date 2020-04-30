@@ -170,13 +170,6 @@ button.contactButton {
     opacity: 0;
 }
 
-
-
-
-
-
-
-
 /* SECTION 4 */
 .section4 {
     background-color:  $colorPrimaryAccent;
@@ -259,7 +252,6 @@ footer {
     font-weight: 600;
 }
 
-
 /* TABLET */
 @media (min-width: 660px) {
     header {
@@ -298,10 +290,6 @@ footer {
     .nav-toggle {
         display: none;
     }
-
-
-
-
 
     .section4 {
         flex-direction: row;

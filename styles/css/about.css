@@ -392,13 +392,18 @@ svg {
   padding: 1.5em 1em 2em 1em;
   margin-bottom: 3em; }
 
-.directorImg, .directorName, .directorTitle .plus:hover {
+.directorImg,
+.directorName,
+.directorTitle .plus:hover {
   opacity: 0; }
 
 .directorText {
   opacity: 1; }
 
-.directorText, .directorImg, .directorName, .directorTitle {
+.directorText,
+.directorImg,
+.directorName,
+.directorTitle {
   transition: opacity 500ms ease; }
 
 .directorText {
@@ -477,6 +482,7 @@ svg {
     max-height: 1.5rem;
     margin: 0.5em 0; }
 
+/* TABLET */
 @media (min-width: 600px) {
   .section1 {
     background-size: 150px;
@@ -502,6 +508,7 @@ svg {
         max-width: 17%;
         margin: 0 0.5em; } }
 
+/* DESKTOP */
 @media (min-width: 1200px) {
   .section1 {
     background-size: 200px;

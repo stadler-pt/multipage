@@ -65,14 +65,19 @@
     padding: 1.5em 1em 2em 1em;
     margin-bottom: 3em;
 }
-.directorImg, .directorName, .directorTitle .plus:hover {     
-            opacity: 0;
-        }
-        .directorText {
-            opacity: 1;
-        }
+.directorImg,
+.directorName,
+.directorTitle .plus:hover {     
+    opacity: 0;
+}
+.directorText {
+    opacity: 1;
+}
 
-.directorText, .directorImg, .directorName, .directorTitle {
+.directorText,
+.directorImg,
+.directorName,
+.directorTitle {
     transition: opacity 500ms ease;
 }
 .directorText {
@@ -153,6 +158,7 @@
     }
 }
 
+/* TABLET */
 @media (min-width: 600px) {
     .section1 {
         background-size: 150px;
@@ -189,11 +195,7 @@
     }
 }
 
-
-
-
-
-
+/* DESKTOP */
 @media (min-width: 1200px) {
     .section1 {
         background-size: 200px;
@@ -232,7 +234,5 @@
     .section2DirectorContainer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
-    }
-
-    
+    }   
 }
